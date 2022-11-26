@@ -30,6 +30,8 @@ use \One23\Iso639\Code1;
 use \One23\Iso639\Code2b;
 use \One23\Iso639\Code2t;
 use \One23\Iso639\Code3;
+// or
+//use \One23\Iso639\Code3Min as Code3;
 
 (string)Code1::from('en')->code3(); // => 'eng'
 (string)Code1::from('uk')->getNameNative(); // => 'українська мова'
@@ -98,7 +100,7 @@ Code2b::all(); // => ["abk","aar","afr","aka","alb","amh",...]
 Code2t::all(); // => ["abk","aar","afr","aka","sqi","amh","ara","arg",...]
 ```
 
-### Code3 && Code3All
+### Code3 && Code3All && Code3Min (only with 639-1)
 
 **Static methods**
 

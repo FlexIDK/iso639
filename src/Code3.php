@@ -67,7 +67,8 @@ class Code3 extends AbstractCode {
     }
 
     public function getNameInverted(): ?string {
-        return (string)$this->data['iso_639_3_name_inverted'] ?: null;
+        return (string)$this->data['iso_639_3_name_inverted']
+            ?: $this->getName();
     }
 
     public function getScope(): ?string {
