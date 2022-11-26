@@ -1,0 +1,22 @@
+{
+  "name": "one23/iso639",
+  "type": "library",
+  "homepage": "https://github.com/FlexIDK/iso639",
+  "description": "PHP library to convert ISO-639",
+  "keywords": ["iso", "iso-639", "639", "lang", "language"],
+  "license": "MIT",
+  "version": "0.1",
+  "authors": [
+  ],
+  "require": {
+    "php" : "~8",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "One23\\Iso639\\": "src/"
+    }
+  },
+  "extra": {
+  }
+}
